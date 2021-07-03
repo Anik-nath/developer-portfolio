@@ -30,6 +30,7 @@ section{
     color: #fff;
     border-radius: 5px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .top-banner{
     background-image: url('images/top-banner.png');
