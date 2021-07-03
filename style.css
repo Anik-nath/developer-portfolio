@@ -11,8 +11,10 @@ h1{
     color: orangered;
 }
 section{
+    margin-bottom: 60px;
+}
+.flexible-container{
     display: flex;
-    padding-bottom: 8%;
 }
 .half-width{
     width: 50%;
@@ -39,11 +41,36 @@ section{
     bottom: 0;
     background-position: right;
 }
-.Experience{
+.Experience-bg{
     background: url('images/exp-bg.png');
     background-repeat: no-repeat;
+    padding: 0px 5px;
+    background-position: left;
 }
 .card{
-    border-left: 10px solid tomato;
+    border-left: 10px solid orangered;
     box-shadow: 0px 0px 26px 0px #555;
+    padding-bottom: 50px;
+    margin: 0px 30px;
+}
+.card h3{
+    color: orangered;
+}
+.card h1{
+    font-size: 35px;
+}
+.blue-border{
+   border-image: 
+   linear-gradient(
+     to bottom, 
+     blue, 
+     cyan
+   ) 1 100%;
+}
+.footer{
+    padding-top: 50px;
+}
+.copywrite{
+    text-align: center;
+    color: dimgrey;
 }
